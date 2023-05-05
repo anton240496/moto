@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header_top">
+      <div class="container">
+        <img class="menu_btn" src="img/menu.svg" alt="">
+        <nav class="nav">
+          <ul class="menu header_menu">
+            <li class="header_menu_list">Главная</li>
+            <li class="header_menu_list">Наша продукция</li>
+            <li class="header_menu_list">Контакты</li>
+            <a class="header_a" href="#"><img class="logo header_logo" src="img/logo.png" alt=""></a>
+            <li class="header_menu_list">Акции</li>
+            <li class="header_menu_list">Отзывы</li>
+            <a class="header_basket header_basket_on" href="#">
+              <img class="header_basket_img" src="img/basket.svg" alt="">
+              <span>1</span>
+            </a>
+          </ul>
+        </nav>
+
+          <a href="#"><img class="logo header_logo header_adaptive" src="img/logo.png" alt=""></a>
+          <a class="header_basket header_basket_on header_basket_adaptive" href="#">
+            <img class="header_basket_img" src="img/basket.svg" alt="">
+            <span>1</span>
+          </a>
+
+      </div>
+    </div>
+    <div class="header_block">
+
+      <div class="container">
+        <div class="header_block_inner">
+          <h3 class="header_title">MotoShine</h3>
+          <p class="header_opisanie">Самые разные мотоциклы только у нас</p>
+          <p class="header_tel">
+            <a class="header_tel_a" href="tel:88121234567">
+              <p>Звоните нам: 8 (812) 123-45-67</p>
+            </a>
+          </p>
+          <img class="header_bot" src="img/bot_arrow.svg" alt="">
+        </div>
+      </div>
+    </div>
+
+  </header>
+  <main class="main">
+    <section class="vid">
+      <div class="container">
+        <h3 class="vid_title">У нас вы можете найти</h3>
+
+        <div class="vid_close">
+          <img src="img/close.svg" alt="">
+        </div>
+
+        <div class="vid_blog">
+          <ul class="vid_blog_ul">
+            <li class="vid_blog_li no li_btn1">
+              Классические
+            </li>
+            <li class="vid_blog_li no li_btn2">
+              Ралийные
+            </li>
+            <li class="vid_blog_li no li_btn3">
+              Спортивные
+            </li>
+            <li class="vid_blog_li no li_btn4">
+              Супербайки
+            </li>
+          </ul>
+          <ul class="vid_blog_ul_img">
+            <li class="vid_blog_li_img">
+              <img class="vid_blog_img img_f1" src="img/klass.jpg" alt="">
+            </li>
+            <li class="vid_blog_li_img">
+              <img class="vid_blog_img img_f2" src="img/ral.jpg" alt="">
+            </li>
+            <li class="vid_blog_li_img">
+              <img class="vid_blog_img img_f3" src="img/sport.jpg" alt="">
+            </li>
+            <li class="vid_blog_li_img">
+              <img class="vid_blog_img img_f4" src="img/super.jpg" alt="">
+            </li>
+          </ul>
+        </div>
+        <div class="vid_blog">
+          <ul class="vid_blog_ul">
+            <li class="vid_blog_li no li_btn5">
+              Круизеры
+            </li>
+            <li class="vid_blog_li no li_btn6">
+              Дрэгстеры
+            </li>
+            <li class="vid_blog_li no li_btn7">
+              Мотарды
+            </li>
+            <li class="vid_blog_li no li_btn8">
+              Минибайки
+            </li>
+          </ul>
+          <ul class="vid_blog_ul_img blog_2">
+            <li class="vid_blog_li_img">
+              <img class="vid_blog_img img_f5" src="img/kryus.jpg" alt="">
+            </li>
+            <li class="vid_blog_li_img">
+              <img class="vid_blog_img img_f6" src="img/dag.jpg" alt="">
+            </li>
+            <li class="vid_blog_li_img">
+              <img class="vid_blog_img img_f7" src="img/motard.jpg" alt="">
+            </li>
+            <li class="vid_blog_li_img">
+              <img class="vid_blog_img img_f8" src="img/mini.jpg" alt="">
+            </li>
+          </ul> 
+        </div>
+      </div>
+    </section> 
+ <section class="catalog">
+      <div class="container">
+        <h3 class="catalog_title"> Наши модели</h3>
+        <div class="catalog_inner swiper">
+
+          <div class="strelk">
+
+            <div class="blog swiper-button-left">
+              <svg  class="next" width="230" height="50">
+                <polygon points="5,135 115,5 225,135"
+                fill="#d9544d"
+                />
+              </svg>
+            </div>
+            <div class="blog swiper-button-right">
+              <svg  class="prev" width="230" height="50">
+                <polygon points="5,135 115,5 225,135"
+                fill="#d9544d"
+                />
+              </svg>
+            </div>
+          </div>
+
+          <ul class="catalog_inner_ul swiper-wrapper">
+            <li class="catalog_inner_li swiper-slide">
+              <img class="catalog_inner_img" src="img/model.jpg" alt="">
+              <p class="catalog_model">BSE z3 250e</p>
+              <div class="catalog_opisanie">
+                <p class="catalog_sped">150 км/ч</p>
+                <p class="catalog_mosh">100 л.с.</p>
+              </div>
+              <p class="catalog_cena">100 000 руб.</p>
+              <button class="catalog_btn" type="button" name="button">Купить</button>
+            </li>
+
+            <li class="catalog_inner_li swiper-slide">
+              <img class="catalog_inner_img" src="img/model2.jpg" alt="">
+              <p class="catalog_model">Stels SB 200</p>
+              <div class="catalog_opisanie">
+                <p class="catalog_sped">120 км/ч</p>
+                <p class="catalog_mosh">80 л.с.</p>
+              </div>
+              <p class="catalog_cena">80 000 руб.</p>
+              <button class="catalog_btn" type="button" name="button">Купить</button>
+            </li>
+
+            <li class="catalog_inner_li swiper-slide">
+              <img class="catalog_inner_img" src="img/model3.jpg" alt="">
+              <p class="catalog_model">Honda CB650F </p>
+              <div class="catalog_opisanie">
+                <p class="catalog_sped">170 км/ч</p>
+                <p class="catalog_mosh">110 л.с.</p>
+              </div>
+              <p class="catalog_cena">150 000 руб.</p>
+              <button class="catalog_btn" type="button" name="button">Купить</button>
+            </li>
+
+            <li class="catalog_inner_li swiper-slide">
+              <img class="catalog_inner_img" src="img/model4.jpg" alt="">
+              <p class="catalog_model">Beta RR 300 2020Beta </p>
+              <div class="catalog_opisanie">
+                <p class="catalog_sped">80 км/ч</p>
+                <p class="catalog_mosh">70 л.с.</p>
+              </div>
+              <p class="catalog_cena">60 000 руб.</p>
+              <button class="catalog_btn" type="button" name="button">Купить</button>
+            </li>
+
+            <li class="catalog_inner_li swiper-slide">
+              <img class="catalog_inner_img" src="img/model5.jpg" alt="">
+              <p class="catalog_model">weels cbs 300</p>
+              <div class="catalog_opisanie">
+                <p class="catalog_sped">200 км/ч</p>
+                <p class="catalog_mosh">150 л.с.</p>
+              </div>
+              <p class="catalog_cena">300 000 руб.</p>
+              <button class="catalog_btn" type="button" name="button">Купить</button>
+            </li>
+
+            <li class="catalog_inner_li swiper-slide">
+              <img class="catalog_inner_img" src="img/model6.jpg" alt="">
+              <p class="catalog_model">keeway 400</p>
+              <div class="catalog_opisanie">
+                <p class="catalog_sped">60 км/ч</p>
+                <p class="catalog_mosh">90 л.с.</p>
+              </div>
+              <p class="catalog_cena">500 000 руб.</p>
+              <button class="catalog_btn" type="button" name="button">Купить</button>
+            </li>
+
+            <li class="catalog_inner_li swiper-slide">
+              <img class="catalog_inner_img" src="img/model6.jpg" alt="">
+              <p class="catalog_model">keeway 400</p>
+              <div class="catalog_opisanie">
+                <p class="catalog_sped">60 км/ч</p>
+                <p class="catalog_mosh">90 л.с.</p>
+              </div>
+              <p class="catalog_cena">500 000 руб.</p>
+              <button class="catalog_btn" type="button" name="button">Купить</button>
+            </li>
+          </ul>
+
+
+        </div>
+      </div>
+    </section>
+
+   <section class="feedback">
+      <div class="container">
+        <h3  class="feedback_title">Напишите о нас</h3>
+        <form class="feedback_form">
+          <textarea  id='editor' class="feedback_textarea" name="name" placeholder="Напишите свой отзыв"></textarea>
+          <div class="feedback_contact">
+            <input  id='editor_n' class="feedback_input" type="text" placeholder="Ваше имя">
+            <input class="feedback_input" type="text" placeholder="Ваша почта">
+          </div>
+          <button id='button_f' class="feedback_button" type="button" name="button">Отправить</button>
+        </form>
+        <h3 class="feedback_ours_title">Топ 4 отзыва</h3>
+        <div class="feedback_ours">
+          <ul class="feedback_ours_ul">
+            <li class="feedback_ours_li">
+              <div id='coment_1' class="feedback_ours_text">
+                lk,hj Всех снова приветствую. Продолжаю писать серию своих отзывов о мотоциклах. Сейчас, я уже правда езжу на новом 3 поколении от 2014г, BMW R1200RT, но этот мотоцикл у меня оставил много положительных впечатлений
+              </div>
+              <div class="feedback_ours_contact">
+                <p id="name_1" class="feedback_ours_name">Алиса</p>
+              </div>
+            </li>
+
+            <li class="feedback_ours_li">
+              <div  id='coment_2' class="feedback_ours_text">
+                sfdafg Всех снова приветствую. Продолжаю писать серию своих отзывов о мотоциклах. Сейчас, я уже правда езжу на новом 3 поколении от 2014г, BMW R1200RT, но этот мотоцикл у меня оставил много положительных впечатлений
+              </div>
+              <div class="feedback_ours_contact">
+                <p id="name_2" class="feedback_ours_name">Миша</p>
+              </div>
+            </li>
+
+            <li class="feedback_ours_li">
+              <div id='coment_3' class="feedback_ours_text">
+                cvbvnbbvc Всех снова приветствую. Продолжаю писать серию своих отзывов о мотоциклах. Сейчас, я уже правда езжу на новом 3 поколении от 2014г, BMW R1200RT, но этот мотоцикл у меня оставил много положительных впечатлений
+              </div>
+              <div class="feedback_ours_contact">
+                <p id="name_3" class="feedback_ours_name">Владимир</p>
+              </div>
+            </li>
+
+
+            <li class="feedback_ours_li">
+              <div id='coment_4' class="feedback_ours_text">
+                Всех снова приветствую. Продолжаю писать серию своих отзывов о мотоциклах. Сейчас, я уже правда езжу на новом 3 поколении от 2014г, BMW R1200RT, но этот мотоцикл у меня оставил много положительных впечатлений
+              </div>
+              <div class="feedback_ours_contact">
+                <p id="name_4" class="feedback_ours_name">Лена</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section> 
+  </main>
+     <footer class="footer">
+        <div class="container">
+          <div class="footer_inner">
+            <h3 class="footer_title">НАШИ КОНТАКТЫ</h3>
+            <ul class="footer_ul">
+              <li class="footer_li">
+                <div class="footer_p">
+                  <img class="footer_p_img" src="img/mobile.svg" alt="">
+                  <a class="footer_text" href="tel:89056789876">8 (905)678-98-76</a>
+                </div>
+              </li>
+              <li class="footer_li">
+                <div class="footer_p">
+                  <img class="footer_p_img" src="img/email.svg" alt="">
+                  <a class="footer_text" href="mailto:=mail@seafood.no">mail@seafood.no</a>
+                </div>
+              </li>
+              <li class="footer_li">
+                <div class="footer_p">
+                  <img class="footer_p_img" src="img/address.svg" alt="">
+                  <a class="footer_text" href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.337775%2C60.051175&mode=routes&rtext=~60.052594%2C30.322974&rtt=pd&ruri=~&z=14.16">
+                    улица Хошимина 10
+                  </a>
+                </div>
+              </li>
+              <li class="footer_li">
+                <div class="footer_p">
+                  <img class="footer_p_img" src="img/time.svg" alt="">
+                  <p class="footer_text">10:00-20:00</p>
+                </div>
+              </li>
+            </ul>
+            <div class="footer_cety">
+              <a class="footer_cety_a" href="#"><img class="footer_cety_Img" src="img/face.svg" alt=""></a>
+              <a class="footer_cety_a" href="#"><img class="footer_cety_Img" src="img/inst.svg" alt=""></a>
+              <a class="footer_cety_a" href="#"><img class="footer_cety_Img" src="img/youtube.svg" alt=""></a>
+              <a class="footer_cety_a" href="#"><img class="footer_cety_Img" src="img/vk.svg" alt=""></a>
+            </div>
+          </div>
+          <a href="#"><img class="logo footer_logo" src="img/logo.png" alt=""></a>
+        </div>
+      </footer> 
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
